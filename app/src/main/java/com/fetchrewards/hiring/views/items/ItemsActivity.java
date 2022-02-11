@@ -28,16 +28,16 @@ import java.util.stream.Collectors;
 
 public class ItemsActivity extends AppCompatActivity {
     ItemsViewModel itemsViewModel;
-    Spinner spinner;
-    RecyclerView itemsRecyclerView;
+    private Spinner spinner;
+    private RecyclerView itemsRecyclerView;
     RecyclerViewAdapterItems recyclerViewAdapterItems;
-    TextView emptyStateText;
-    String selectedSpinnerItem = "";
+    private TextView emptyStateText;
+    private String selectedSpinnerItem = "";
 
-    List<Item> itemsListIdOne;
-    List<Item> itemsListIdTwo;
-    List<Item> itemsListIdThree;
-    List<Item> itemsListIdFour;
+    private List<Item> itemsListIdOne;
+    private List<Item> itemsListIdTwo;
+    private List<Item> itemsListIdThree;
+    private List<Item> itemsListIdFour;
 
     private final static String TAG = "ItemsActivity";
 

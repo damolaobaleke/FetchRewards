@@ -26,7 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ItemsViewModel extends ViewModel {
     MutableLiveData<List<Item>> items;
-    FetchRewardsAPI fetchRewardsAPI;
+    private FetchRewardsAPI fetchRewardsAPI;
 
     public ItemsViewModel(){
         items = new MutableLiveData<>();
