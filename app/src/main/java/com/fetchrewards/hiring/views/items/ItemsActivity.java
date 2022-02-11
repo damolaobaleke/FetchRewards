@@ -88,19 +88,28 @@ public class ItemsActivity extends AppCompatActivity {
 
                 switch (selectedSpinnerItem) {
                     case "1":
+                        //sort by listId then name
+                        itemsListIdOne.sort(new Item());
                         setUpRecyclerView(itemsListIdOne);
+
                         Log.i(TAG, itemsListIdOne.size()+"::count of items with a list id of 1");
                         break;
                     case "2":
+                        itemsListIdTwo.sort(new Item());
                         setUpRecyclerView(itemsListIdTwo);
+
                         Log.i(TAG, itemsListIdTwo.size()+"::count of items with a list id of 2");
                         break;
                     case "3":
+                        itemsListIdThree.sort(new Item());
                         setUpRecyclerView(itemsListIdThree);
+
                         Log.i(TAG, itemsListIdThree.size()+"::count of items with a list id of 3");
                         break;
                     case "4":
+                        itemsListIdFour.sort(new Item());
                         setUpRecyclerView(itemsListIdFour);
+
                         Log.i(TAG, itemsListIdFour.size()+"::count of items with a list id of 4");
                         break;
                     default:
