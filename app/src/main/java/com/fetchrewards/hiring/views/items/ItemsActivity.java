@@ -60,6 +60,7 @@ public class ItemsActivity extends AppCompatActivity {
         itemsListIdTwo = new ArrayList<>();
         itemsListIdThree = new ArrayList<>();
         itemsListIdFour = new ArrayList<>();
+        //
 
         //fetch items
         itemsViewModel.fetchItems().observe(this, new Observer<List<Item>>() {
