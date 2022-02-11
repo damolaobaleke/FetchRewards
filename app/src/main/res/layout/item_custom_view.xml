@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@android:color/darker_gray"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/identity"
+            style="@style/ItemViewTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="@+id/identityLabel"
+            app:layout_constraintStart_toStartOf="@+id/identityLabel"
+            app:layout_constraintTop_toBottomOf="@+id/identityLabel" />
+
+        <TextView
+            android:id="@+id/list_id"
+            style="@style/ItemViewTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="@+id/listIdentityLabel"
+            app:layout_constraintStart_toStartOf="@+id/listIdentityLabel"
+            app:layout_constraintTop_toBottomOf="@+id/listIdentityLabel" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/ItemViewTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="@+id/nameLabel"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel" />
+
+        <TextView
+            android:id="@+id/identityLabel"
+            style="@style/ItemViewTextLabelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/identity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/listIdentityLabel"
+            style="@style/ItemViewTextLabelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/list_identity"
+            app:layout_constraintEnd_toStartOf="@+id/nameLabel"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toEndOf="@+id/identityLabel"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            style="@style/ItemViewTextLabelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

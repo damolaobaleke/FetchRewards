@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FetchRewards</string>
+    <string name="no_items_to_display">No items to display</string>
+    <string name="name">Name</string>
+    <string name="list_identity">List identity</string>
+    <string name="identity">Identity</string>
+    <string name="candidate_name">Damola Obaleke -Exercise</string>
+
+    <string-array name="listIds">
+        <item>Select the list id group to view</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
