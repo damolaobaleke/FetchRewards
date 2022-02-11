@@ -1,7 +1,7 @@
 # FetchRewards
 Fetch Rewards Coding Exercise: Software Engineering - Mobile
 
-##How it works
+## How it works
 Splash screen loads. After splash screen goes to items Activity.
 
 List of all items sorted by **list id** and then **name** are displayed.
